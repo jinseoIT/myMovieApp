@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "//jinseoit.github.io/myMovieApp/static/css/main.2573df38.chunk.css",
-    "main.js": "//jinseoit.github.io/myMovieApp/static/js/main.e96ebbb4.chunk.js",
-    "main.js.map": "//jinseoit.github.io/myMovieApp/static/js/main.e96ebbb4.chunk.js.map",
-    "runtime-main.js": "//jinseoit.github.io/myMovieApp/static/js/runtime-main.cefc9e89.js",
-    "runtime-main.js.map": "//jinseoit.github.io/myMovieApp/static/js/runtime-main.cefc9e89.js.map",
-    "static/js/2.f2aae495.chunk.js": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js",
-    "static/js/2.f2aae495.chunk.js.map": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js.map",
-    "index.html": "//jinseoit.github.io/myMovieApp/index.html",
-    "static/css/main.2573df38.chunk.css.map": "//jinseoit.github.io/myMovieApp/static/css/main.2573df38.chunk.css.map",
-    "static/js/2.f2aae495.chunk.js.LICENSE.txt": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js.LICENSE.txt"
+    "main.css": "/myMovieApp/static/css/main.2573df38.chunk.css",
+    "main.js": "/myMovieApp/static/js/main.e96ebbb4.chunk.js",
+    "main.js.map": "/myMovieApp/static/js/main.e96ebbb4.chunk.js.map",
+    "runtime-main.js": "/myMovieApp/static/js/runtime-main.066d4c84.js",
+    "runtime-main.js.map": "/myMovieApp/static/js/runtime-main.066d4c84.js.map",
+    "static/js/2.d913241a.chunk.js": "/myMovieApp/static/js/2.d913241a.chunk.js",
+    "static/js/2.d913241a.chunk.js.map": "/myMovieApp/static/js/2.d913241a.chunk.js.map",
+    "index.html": "/myMovieApp/index.html",
+    "static/css/main.2573df38.chunk.css.map": "/myMovieApp/static/css/main.2573df38.chunk.css.map",
+    "static/js/2.d913241a.chunk.js.LICENSE.txt": "/myMovieApp/static/js/2.d913241a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cefc9e89.js",
-    "static/js/2.f2aae495.chunk.js",
+    "static/js/runtime-main.066d4c84.js",
+    "static/js/2.d913241a.chunk.js",
     "static/css/main.2573df38.chunk.css",
     "static/js/main.e96ebbb4.chunk.js"
   ]
