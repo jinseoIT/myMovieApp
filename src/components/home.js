@@ -1,12 +1,12 @@
 import React from 'react';
-import Nav from "./common/nav";
 import Youtube from "./common/youtube";
+import MovieList from "./movie/MovieList";
 
 const home = () => {
   return (
     <div>
-      <Nav />
       <Youtube />
+      <MovieList />
     </div>
   );
 };

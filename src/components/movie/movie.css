@@ -1,0 +1,5 @@
+.movieList__area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

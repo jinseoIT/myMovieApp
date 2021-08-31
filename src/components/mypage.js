@@ -3,7 +3,7 @@ import React from 'react';
 const mypage = () => {
   return (
     <div>
-      <h2>mypage!!</h2>
+      <h2 className="font-white" style={{textAlign: 'center'}}>Mypage</h2>
     </div>
   );
 };
