@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./nav.css";
 
 const nav = () => {
@@ -20,10 +21,10 @@ const nav = () => {
           </div>
 
           <ul className="navbar__menu">
-            <li><a href="#!">Home</a></li>
-            <li><a href="#!">MovieList</a></li>
-            <li><a href="#!">MyPage</a></li>
-            <li><a href="#!">FAQ</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/movieList">MovieList</Link></li>
+            <li><Link to="/mypage">MyPage</Link></li>
+            <li><Link to="/">FAQ</Link></li>
           </ul>
           
           <div className="navbar__icons">
