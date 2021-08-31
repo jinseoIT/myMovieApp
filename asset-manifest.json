@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2573df38.chunk.css",
-    "main.js": "/static/js/main.e96ebbb4.chunk.js",
-    "main.js.map": "/static/js/main.e96ebbb4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cbfbb418.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cbfbb418.js.map",
-    "static/js/2.722b9fb4.chunk.js": "/static/js/2.722b9fb4.chunk.js",
-    "static/js/2.722b9fb4.chunk.js.map": "/static/js/2.722b9fb4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2573df38.chunk.css.map": "/static/css/main.2573df38.chunk.css.map",
-    "static/js/2.722b9fb4.chunk.js.LICENSE.txt": "/static/js/2.722b9fb4.chunk.js.LICENSE.txt"
+    "main.css": "//jinseoit.github.io/myMovieApp/static/css/main.2573df38.chunk.css",
+    "main.js": "//jinseoit.github.io/myMovieApp/static/js/main.e96ebbb4.chunk.js",
+    "main.js.map": "//jinseoit.github.io/myMovieApp/static/js/main.e96ebbb4.chunk.js.map",
+    "runtime-main.js": "//jinseoit.github.io/myMovieApp/static/js/runtime-main.cefc9e89.js",
+    "runtime-main.js.map": "//jinseoit.github.io/myMovieApp/static/js/runtime-main.cefc9e89.js.map",
+    "static/js/2.f2aae495.chunk.js": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js",
+    "static/js/2.f2aae495.chunk.js.map": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js.map",
+    "index.html": "//jinseoit.github.io/myMovieApp/index.html",
+    "static/css/main.2573df38.chunk.css.map": "//jinseoit.github.io/myMovieApp/static/css/main.2573df38.chunk.css.map",
+    "static/js/2.f2aae495.chunk.js.LICENSE.txt": "//jinseoit.github.io/myMovieApp/static/js/2.f2aae495.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbfbb418.js",
-    "static/js/2.722b9fb4.chunk.js",
+    "static/js/runtime-main.cefc9e89.js",
+    "static/js/2.f2aae495.chunk.js",
     "static/css/main.2573df38.chunk.css",
     "static/js/main.e96ebbb4.chunk.js"
   ]
