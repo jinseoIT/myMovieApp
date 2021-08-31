@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from "./common/nav";
+import Youtube from "./common/youtube";
 
 const home = () => {
   return (
     <div>
-      <h2>Home desu yo</h2>
+      <Nav />
+      <Youtube />
     </div>
   );
 };

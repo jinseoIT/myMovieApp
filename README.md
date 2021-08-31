@@ -1,4 +1,4 @@
-## ☺ MyMovieApp Project 
+## ☺ My MovieApp Project 
 
 ### 프로젝트 소개
-- 개인이 좋아하는 영화를 MyPage에 저장
+- 영화보기가 취미인 분들 이라면 내목록에 영화리스트들을 담아보자😀
