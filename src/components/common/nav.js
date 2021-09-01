@@ -6,9 +6,9 @@ const nav = () => {
   
   const toggleNav = () => {
     const menu = document.querySelector('.navbar__menu');
-    const icons = document.querySelector('.navbar__icons');
+    const account = document.querySelector('.navbar__account');
     menu.classList.toggle('active');
-    icons.classList.toggle('active');
+    account.classList.toggle('active');
   }
 
   return (
@@ -26,11 +26,16 @@ const nav = () => {
             <li><Link to="/mypage">MyPage</Link></li>
             <li><Link to="/">FAQ</Link></li>
           </ul>
+
+          <div className="navbar__account">
+            <a href="/Login">Login</a>
+            <a href="#!">SignUp</a>
+          </div>
           
-          <div className="navbar__icons">
+          {/* <div className="navbar__icons">
             <li><i className="fab fa-github"></i></li>
             <li><i className="fab fa-blogger"></i></li>
-          </div>
+          </div> */}
 
           <button className="navbar__toggleBtn" onClick={toggleNav}>
             <i></i>

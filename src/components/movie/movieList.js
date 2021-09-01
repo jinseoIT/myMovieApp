@@ -26,7 +26,8 @@ const MovieList = () => {
   // axios 방식
   const fetchMovies = (endPoint) => {
       axios.get(endPoint)
-      .then(res => {
+        .then(res => {
+        console.log(res);
         setMoiveList(res.data.results);
       })
       .catch(error => {
