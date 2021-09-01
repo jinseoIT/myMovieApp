@@ -12,7 +12,7 @@ import Login from "./account/Login";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Nav />
       <Switch>
         <Route exact path="/" component={home} />
