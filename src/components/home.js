@@ -1,6 +1,6 @@
 import React from 'react';
 import Youtube from "./common/youtube";
-import MovieList from "./movie/MovieList";
+import MovieList from "./movie/movieList";
 
 const home = () => {
   return (

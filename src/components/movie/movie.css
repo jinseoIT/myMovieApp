@@ -1,5 +1,64 @@
+/* movieList */
 .movieList__area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* movieDetail */
+.movieDetail__imgArea {
+  height: 400px;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  margin: 0 auto ;
+}
+
+.movieDetail__imgArea img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* movieInfo */
+.movieInfo__wrapper {
+  margin-top : 30px;
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.movieInfo__wrapper div{
+  border: 1px solid #3e3947;
+  border-collapse: separate;
+  border-radius: 2px;
+  line-height: 50px;
+}
+
+.movieInfo__wrapper :nth-child(odd) {
+  background-color: #484157;
+  color: #d7cee0;
+}
+
+.movieInfo__wrapper :nth-child(even) {
+  background-color: #d7cee0;
+}
+
+.movieInfo__wrapper :nth-child(10) {
+  grid-column: 4/7;
+}
+
+@media screen and (max-width: 768px){
+  .movieInfo__wrapper {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+  }
+
+  .movieInfo__wrapper :nth-child(10) {
+    grid-column: 2/3;
+  }
+}
+

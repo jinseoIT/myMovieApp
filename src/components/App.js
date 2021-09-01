@@ -1,23 +1,27 @@
 import React from "react";
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./common/common.css";
 import home from "./home";
 import Nav from "./common/nav";
 import mypage from "./mypage"
-import MovieList from './movie/MovieList';
+import MovieList from './movie/movieList';
 import movieDetail from './movie/movieDetail';
+import Login from "./account/Login";
 
 
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Nav />
-      <Route exact path="/" component={home} />
-      <Route path="/movieList"  component={MovieList} />
-      <Route path="/movieDetail"  component={movieDetail} />
-      <Route path="/mypage" component={mypage}/>
-    </HashRouter>
+      <Switch>
+        <Route exact path="/" component={home} />
+        <Route path="/movieList"  component={MovieList} />
+        <Route path="/movieDetail/:movieId"  component={movieDetail} />
+        <Route path="/mypage" component={mypage} />
+        <Route path="/login" component={Login} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
