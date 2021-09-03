@@ -17,7 +17,7 @@ const nav = () => {
         <div className="navbar col-12">
 
           <div className="navbar__logo">
-            <a href="#!">Wmovie</a>  
+            <Link to="/">Wmovie</Link>  
           </div>
 
           <ul className="navbar__menu">
@@ -28,8 +28,8 @@ const nav = () => {
           </ul>
 
           <div className="navbar__account">
-            <a href="/Login">Login</a>
-            <a href="#!">SignUp</a>
+            <Link to="/Login">Login</Link>
+            <Link to="/SignUp">SignUp</Link>
           </div>
           
           {/* <div className="navbar__icons">
