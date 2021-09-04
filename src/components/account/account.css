@@ -44,8 +44,8 @@
   transition: top .5s ease;
 }
 
-.int-area input:focus + label,
-.int-area input:valid + label {
+.int-area input:valid + label,
+.int-area input:focus + label {
   top:0;
   color:rgb(204, 158, 73);
   font-size: 13px;
