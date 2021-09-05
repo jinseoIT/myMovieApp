@@ -1,10 +1,14 @@
 import axios from 'axios';
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import "./account.css";
+import { useDispatch } from "react-redux";
 
-function Login() {
+
+function Login(props) {
+  const dispatch = useDispatch;
   
-  const [userInfo, setUserInfo] = useState({email:'', password:''});
+  const [userInfo, setUserInfo] = useState({ email: '', password: '' });
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -14,14 +18,15 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(userInfo.email, userInfo.password);
+    let submitData = {
+      email: userInfo.email,
+      password: userInfo.password
+    }
     const endPoint = 'http://localhost:5001/api/user/login';
     axios({
       url: endPoint,
       method: 'post',
-      data: {
-        email: userInfo.email,
-        password: userInfo.password
-      }
+      data: submitData
     })
     .then(res => {
       console.log(res);
